@@ -1,0 +1,70 @@
+
+@media screen and (max-width: 400px) {
+    /* CSS rules for screens up to 768 pixels wide */
+ 
+    .content{ 
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+
+}
+
+
+
+.mainDiv{
+    padding: 5%;
+    background-color: rgba(232, 237, 242,75%);
+}
+.content{
+    gap: 50px;
+    display: flex;
+}
+
+.text {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.text h1{ 
+ font-weight: 900;
+ font-size: 250%;
+}
+
+.text p{
+    font-weight: 600;
+    margin-top: 50px;
+    line-height: 2;
+    width: 80%;
+    
+}
+
+#imageDiv{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#button{
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    background-color: rgb(39, 39, 246);
+}
+#button:hover{
+    padding: 30px;
+    border-radius: 15px;
+    font-size: larger;
+    transition: 1s;
+    color: blue;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+}
+

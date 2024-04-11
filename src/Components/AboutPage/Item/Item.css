@@ -1,0 +1,32 @@
+@media screen and (max-width: 400px) {
+    /* CSS rules for screens up to 768 pixels wide */
+
+    .element {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .element h2 {
+        display: flex;
+        padding-left: 20%;
+    }
+}
+
+
+@media screen and (min-width: 450px) {
+    /* CSS rules for screens up to 768 pixels wide */
+
+    .element {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .element h2 {
+        display: flex;
+        padding-left: 20%;
+    }
+}
+
+

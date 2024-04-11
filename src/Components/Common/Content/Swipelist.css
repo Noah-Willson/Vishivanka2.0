@@ -1,0 +1,24 @@
+/* SwipeList.css */
+.custom-next-arrow, .custom-prev-arrow {
+    display: block; /* Make sure arrows are displayed */
+    background-color: #ddd; /* Light grey background for visibility */
+    padding: 15px; /* Add some padding */
+    cursor: pointer; /* Change mouse cursor on hover */
+    border-radius: 50%; /* Optional: makes the arrows circular */
+    z-index: 25; /* Ensure arrows are above other elements */
+  }
+  
+  .custom-next-arrow {
+    position: absolute; /* Position arrows absolutely within the slider */
+    top: 50%; /* Align vertically at the center */
+    right: 25px; /* Place it towards the right */
+    transform: translateY(-50%); /* Center it perfectly */
+  }
+  
+  .custom-prev-arrow {
+    position: absolute; /* Position arrows absolutely within the slider */
+    top: 50%; /* Align vertically at the center */
+    left: 25px; /* Place it towards the left */
+    transform: translateY(-50%); /* Center it perfectly */
+  }
+  

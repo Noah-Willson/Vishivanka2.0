@@ -1,0 +1,105 @@
+@media screen and (max-width: 400px) {
+
+     .grid{ 
+    
+        overflow: hidden;
+     }
+
+      
+   .information { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25%;
+   }
+
+
+
+    .pagination {
+        display: flex;
+        padding-top: 10%;
+        justify-content: space-evenly;
+    }
+
+    #paginationButton {
+        color: rgb(88, 128, 228);
+        font-weight: 500;
+        font-size: larger;
+        background-color: rgb(217, 217, 238);
+        border-radius: 25%;
+    }
+
+}
+
+
+
+@media screen and ( min-width: 500px )  { 
+
+  #price{ 
+    display:flex ;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+#buttonGrid{ 
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        font-size: larger;
+        font-weight: 700;
+        background-color: rgb(39, 39, 246);
+}
+
+#buttonGrid:hover{
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: larger;
+    transition: 1s;
+    color: aquamarine;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: rgb(39, 39, 246);
+}
+
+#paginationButton {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: larger;
+    background-color: rgb(73, 73, 225);
+    border-radius: 25%;
+}
+
+.pagination{ 
+    align-items: center;
+    width: 300%;
+    padding-top: 10%;
+   align-self: center;
+}
+
+
+
+    .grid{ 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-auto-rows: minmax(100px, auto);
+        gap: 20px;
+    }
+    
+    .information{ 
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10%;
+    }
+    .information h4 { 
+        width: 80%;
+    }
+    
+
+
+    
+}
+
+

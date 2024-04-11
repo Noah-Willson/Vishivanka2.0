@@ -1,0 +1,154 @@
+/* Navbar styles */
+#js-navbar-toggle {
+  display: none;
+}
+
+
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+  width: 100%;
+  background-color: aliceblue;
+  padding: 10px 20px;
+  /* Adjust padding as needed */
+}
+.nav-links{
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.nav-links:hover{
+
+background-color: white;
+color: blue;
+padding: 6px;
+transition: 700ms;
+
+}
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  /* Inherit text color from parent */
+}
+
+.logo img {
+  width: 40px;
+  /* Make the logo smaller */
+  margin-right: 10px;
+  /* Add spacing between logo and text */
+}
+
+.logo h2 {
+  margin: 0;
+  /* Remove default margin */
+}
+
+.navbar-toggle {
+  cursor: pointer;
+}
+
+.main-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.main-nav li {
+  margin-right: 20px;
+  /* Adjust spacing between menu items */
+}
+
+
+
+
+
+
+
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+
+  .logo img {
+    display: none;
+
+  }
+
+  .navbar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background-color: aliceblue;
+    position: fixed;
+  }
+
+  .navbar-toggle {
+    font-size: 30px;
+    /* Increase the font size of the burger menu */
+    cursor: pointer;
+    position: absolute;
+    left: 5%;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    /* Stack menu items vertically */
+    align-items: center;
+    /* Center menu items vertically */
+    position: absolute;
+    /* Position menu below navbar */
+    background-color: #b7d0e4;
+    /* Add background color to menu */
+    width: 100%;
+    /* Take full width of screen */
+    border-top: 1px solid #ccc;
+    /* Add border between navbar and menu */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Add shadow to menu */
+    display: none;
+    /* Hide menu by default */
+  }
+
+  .main-nav.active {
+    display: flex;
+    /* Show menu when active class is present */
+    position: absolute;
+    top: 95%;
+    left: 65%;
+    width: 25%;
+    background-color: aliceblue;
+
+
+  }
+
+  .main-nav li {
+    margin: 10px 0;
+    text-decoration: none;
+    /* Add spacing between menu items */
+  }
+
+  .nav-links {
+    color: blue;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+
+  }
+
+  .nav-links:hover {
+    cursor: pointer;
+    font-size: large;
+    background-color: rgb(75, 139, 234);
+  }
+
+
+}

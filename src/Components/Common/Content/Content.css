@@ -1,0 +1,12 @@
+.item {
+    padding: 16px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 15px;
+    text-align: center;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: black; 
+  }
+  

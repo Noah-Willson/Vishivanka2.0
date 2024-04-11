@@ -1,0 +1,73 @@
+#Form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+#Button{
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(254, 254, 254);
+    font-size: larger;
+    font-weight: 700;
+    background-color: blue;
+}
+#Button:hover{
+    padding: 17px;
+    border-radius: 15px;
+    color: rgb(42, 60, 223);
+    font-size: larger;
+    transition: 1s;
+    color: rgb(83, 63, 241);
+    cursor: pointer;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+}
+#Label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 700;
+}
+
+
+#message{
+    border-radius: 10px;
+    width: 250px;
+    background-color: rgb(240, 244, 248);
+
+}
+
+.FormIsHere{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5% 0;
+}
+
+
+.MainFooterDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(181, 193, 235);
+    padding: 5% 10%;
+}
+
+.Phone,
+.Location,
+.Social {
+    border-left: 2px solid rgb(77, 73, 73);
+    padding: 10px;
+}
+
+.Contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.FooterInfo{
+    display: flex;
+    flex-direction: column;
+}
